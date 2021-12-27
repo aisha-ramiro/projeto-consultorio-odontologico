@@ -1,0 +1,174 @@
+.containerApresentation {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contentContainer{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 3px;
+    margin-top: 50px;
+}
+
+/*Apresentação - home*/
+
+.homeApresentation {
+    background-color: rgba(0, 27, 58, 0.993);
+    padding: 0 20px;
+    padding-top: 100px;
+}
+
+.homeApresentation h1 {
+    margin: 0;
+    color: #ffcd29;
+    font-size: 30px;
+    letter-spacing: 2.4px;
+}
+
+.homeApresentation h1 span {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #f5be09;
+    
+}
+
+.homeApresentation p {
+    color: #fff;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+}
+
+
+
+/* lista de serviços - home */
+.serviceList {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.serviceList li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.serviceList li img{
+    object-fit: contain;
+    margin-right: 20px;
+    width: 50px;
+    height: 40px;
+}
+
+.serviceList li p{
+    display:flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+/*Aparelho -- home*/
+
+
+
+.contentImg {
+    filter: brightness(1.12) contrast(1);
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px;
+    max-height: 400px;
+    border-radius: 100px;
+    object-fit: cover;
+    border-right: solid 4px rgba(6, 157, 216, 0.747);
+}
+
+.contentList{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contentTitle{
+    font-size: 30px;
+    letter-spacing: 2.4px;
+    font-weight: 400;
+}
+
+.contentTitle span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contentList li {
+    padding: 20px;
+    list-style: none;
+    text-align: start;
+    flex: 1;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.contentList li:nth-child(-n+2) {
+    border-right: solid 2px;
+}
+
+.contentList p {
+    color: black;
+    font-weight: 200;
+    text-align: justify;
+}
+
+/* Avaliações de clientes == home*/
+
+
+
+.titleReviews {
+    font-size: 30px;
+    letter-spacing: 2.4px;
+    font-weight: 400;
+}
+
+.titleReviews span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.imgReviews {
+    filter: brightness(1.05) contrast(1);
+    height:300px;
+    border-radius: 150px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.listReviews {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.listReviews li {
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+
+}
+
+.listReviews p {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+
+.listReviews p:first-of-type{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
