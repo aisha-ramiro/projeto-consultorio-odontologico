@@ -1,12 +1,14 @@
 import React from 'react'
 
 import './contact.css'
+
+import PageStructure from '../../Components/PageStructure'
 import ContactMap from '../../Components/Map'
 
 export default function Contact () {
     
     return (
-
+      <PageStructure>
       <div className='contactContainer'>
         <div className='contactMap'>
 
@@ -39,5 +41,6 @@ export default function Contact () {
             </div>
         </div>
       </div>
+      </PageStructure>
     )
 }
