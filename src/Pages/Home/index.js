@@ -3,10 +3,13 @@ import React from 'react'
 
 import './home.css'
 
+import PageStructure from '../../Components/PageStructure'
+
 
 export default function Home () {
   
   return(
+    <PageStructure>
     <div className="homeApresentation">
       <div className='containerApresentation'>
         <h1>Os melhores <span>aparelhos dentários</span>!</h1>
@@ -80,8 +83,6 @@ export default function Home () {
            
       </div>
     </div>
-
-
-
+    </PageStructure>
   )
 }
